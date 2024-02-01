@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url(./bernard-hermant-X-Bu9X6gok0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mobile-1 {
+    width: 23.5%;
+    height: 90vh;
+    border: 6px solid rgb(78, 77, 77);
+    border-radius: 40px;
+}
+
+
+.mobile-1-1 {
+    width: 100%;
+    height: 88.4vh;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 35px;
+    position: relative;
+    /* background: rgb(205,230,86);
+background: linear-gradient(0deg, rgba(205,230,86,1) 0%, rgba(185,246,255,1) 41%, rgba(0,255,248,1) 93%); */
+
+background-image: url(./gregoire-jeanneau-9sxeKzuCVoE-unsplash.jpg);
+background-position: center;
+background-size: cover;
+
+    padding-inline: 10px;
+
+}
+
+
+.circle {
+    width: 25%;
+    height: 24px;
+    background-color: black;
+    /* border: no; */
+    border-radius: 60px;
+    position: absolute;
+    left: 38%;
+    top: 1.5%;
+    position: relative;
+}
+
+.circle i{
+    /* width: 0px; */
+    font-size: 10px;
+    position: absolute;
+    left: 75%;
+    top: 20%;
+}
+
+
+.morning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: white;
+}
+.morning i{
+    font-size: 25px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+form input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 15px;
+    outline: none;
+}
+
+form button{
+    width: 25%;
+    color: rgb(31, 29, 29);
+    height: 30px;
+    background-color: rgb(146, 230, 146);
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.cloud{
+    width: 130px;
+    margin-left: 27%;
+    /* border: 1px solid black; */
+}
+
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.celsious{
+    font-size: 50px;
+}
+
+.date{
+    font-weight: 800;
+    /* color: red; */
+}
+
+.city{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+.sunrise{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    color: white;
+
+}
+
+
+.sunrieses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sun-img i{
+    font-size: 20px;
+}
+
+
+.sunset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.set-icon i{
+    font-size: 30px;
+}
+
+.air-quality{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile-2 {
+    width: 23.5%;
+    height: 90vh;
+    border: 6px solid rgb(90, 89, 89);
+    border-radius: 40px;
+
+}
+
+
+
+
+.mobile-2-1 {
+    width: 100%;
+    height: 88.4vh;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 35px;
+    position: relative;
+    background-image: url(./tom-barrett-hgGplX3PFBg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-inline: 15px;
+}
+
+.circle-2 {
+    width: 25%;
+    height: 24px;
+    background-color: black;
+    /* border: no; */
+    border-radius: 60px;
+    position: absolute;
+    left: 38%;
+    top: 1.5%;
+}
+
+.week{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.week i{
+    font-size: 30px;
+}
+
+.week p{
+    font-size: 32px;
+    color: rgb(194, 255, 252);
+    font-weight: 800;
+}
+
+
+.sunday{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    margin-top: 15px;
+    color: white;
+    font-weight: 550;
+    border-bottom: 1px solid rgb(119, 119, 119);
+    padding-bottom: 5px;
+}
+
+.temp{
+    font-size: 40px;
+}
+
+.temp-2{
+    font-size: 40px;
+}
+
+.temp-3{
+    font-size: 40px;
+}
+
+.temp-4{
+    font-size: 40px;
+}
+
+.temp-5{
+    font-size: 40px;
+}
+
+.temp-6{
+    font-size: 40px;
+}
+
+.temp-7{
+    font-size: 40px;
+}
+
+
+.size{
+    width: 50px;
+}
+
+.weekly{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
