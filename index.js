@@ -46,7 +46,8 @@ let temp7 = document.querySelector(".temp-7")
 
 const getweather = async (e)=>{
     e.preventDefault();
-    const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=88a2712454834f7ea8071600240102&q=${input.value}&days=10&aqi=yes&alerts=yes`)
+    const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=af69b7e7129545d9aed181641240505&q=${input.value}&days=10&aqi=yes&alerts=yes`)
+    // const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=88a2712454834f7ea8071600240102&q=${input.value}&days=10&aqi=yes&alerts=yes`)
     // const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=88a2712454834f7ea8071600240102&q=${input.value}&days=10&aqi=yes&alerts=yes`)
     
     const data = await response.json()
